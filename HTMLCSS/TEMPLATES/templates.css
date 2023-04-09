@@ -1,0 +1,18 @@
+* {
+  background-color: rgb(67, 202, 202);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+div {
+  display: flex;
+}
+.image {
+  justify-content: space-between;
+}
+.navbar {
+  
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-between;
+}

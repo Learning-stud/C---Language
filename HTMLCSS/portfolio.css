@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #161616;
+  color: white;
+}
+header {
+  background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-bar-passion-party-background-picture-image_379335.jpg);
+  background-size: inherit;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.logo {
+  width: 400px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: medium;
+  font-weight: bolder;
+  font-family: "Amatic SC", cursive;
+  position: relative;
+}
+.logo:hover {
+  color: crimson;
+}
+
+.option {
+  margin: 20px;
+  padding: 20px;
+}
+.option:hover {
+  border: 2px solid grey;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+.photo {
+  border-radius: 50px;
+}
+
+.hero {
+  width: 582px;
+  height: 800px;
+  background-image: url(images/IMG_5018.jpg);
+  background-size: 657px;
+  background-repeat: no-repeat;
+  margin-left: 70px;
+  display: inline-block;
+  border-radius: 209px;
+  margin-top: 20px;
+}
+.me {
+  height: 100px;
+  width: 600px;
+  position: relative;
+  left: 700px;
+  top: 200px;
+  font-size: 80px;
+
+  margin-left: 70px;
+  padding-left: 100px;
+  display: inline-block;
+}
+.intro {
+  position: relative;
+  left: 700px;
+  top: 225px;
+  font-size: 55px;
+  margin-left: 70px;
+  padding-left: 100px;
+}
+.intro2 {
+  display: inline-block;
+  width: 1046px;
+  position: relative;
+  left: 700px;
+  top: 300px;
+  font-size: 27px;
+  font-family: "Tangerine", cursive;
+  margin-left: 70px;
+  padding-left: 100px;
+  height: max-content;
+}
+.me:hover {
+  border-radius: 50px;
+  border-color: #161616;
+  color: orange;
+  border: 2px solid grey;
+  transition-timing-function: ease-in;
+  transition-duration: 1s;
+}
+.intro:hover {
+  color: lightcoral;
+}
+.intro2:hover {
+ border-radius: 50px;
+ background-color:burlywood;
+ transition: ease-in;
+  transition-duration: 1s;
+}

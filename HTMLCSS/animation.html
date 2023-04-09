@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 200px;
+        width: 200px;
+        animation-duration: 2s;
+        animation-name: jay;
+        position: relative;
+        animation-iteration-count: infinite;
+      }
+
+      .one {
+        background-color: green;
+        animation-timing-function: ease;
+      }
+      .two {
+        background-color: orange;
+        animation-timing-function: step-start;
+      }
+      .three {
+        background-color: aqua;
+        animation-timing-function: ease-in-out;
+      }
+      .four {
+        background-color: yellow;
+        animation-timing-function: ease-out;
+      }
+      .five {
+        background-color: violet;
+        animation-timing-function: linear;
+      }
+
+      @keyframes jay {
+        from {
+          left: 0;
+        }
+        to {
+          left: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+  </body>
+</html>

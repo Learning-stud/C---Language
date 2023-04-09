@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     .main{
+      position: relative;
+     }
+     #one{
+      height: 500px;
+      width: 300px;
+      background-color: pink;
+      border: 2px solid black;
+     }
+     #two{
+      height: 100px;
+      width: 250px;
+      background-color: aqua;
+      position: absolute;
+      top: 150px;
+      left: 70px;
+      z-index: 1px;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div id="one"></div>
+      <div id="two"></div>
+      <div id="three"></div>
+    </div>
+  </body>
+</html>
